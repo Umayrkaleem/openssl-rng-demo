@@ -10,13 +10,16 @@ This project generates an array of cryptographically secure random integers (0�
 - Portable to macOS and Linux
 
 ## Project Structure
+```text
 .
 ├── Makefile
 ├── include
-│   └── handlers.h         # Function declarations
+│   └── handlers.h
 └── src
-    ├── main.c             # Program entry point
-    └── handlers.c         # Logic for generation, conditioning, and sorting
+    ├── main.c #Program entry point
+    └── handlers.c #Logic for generation, conditioning and sorting 
+```
+
 
 ## Prerequisites
 
