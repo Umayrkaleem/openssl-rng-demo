@@ -42,3 +42,10 @@ sudo apt install libssl-dev
 make PLATFORM=linux
 ./bin/random_sort
 ```
+
+### 🔧 Custom OpenSSL Path
+```
+# Makefile variables to adjust
+OPENSSL_INCLUDE = /custom/path/to/openssl/include
+OPENSSL_LIB = /custom/path/to/openssl/lib
+```

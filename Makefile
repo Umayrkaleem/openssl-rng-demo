@@ -4,7 +4,7 @@ OUT = bin/random_sort
 
 PLATFORM ?= mac
 
-ifeq ($(PLATFORM), mac)
+ifeq ($(PLATFORM), mac) #default, adjust path if needed
     OPENSSL_INCLUDE = /opt/homebrew/opt/openssl/include
     OPENSSL_LIB = /opt/homebrew/opt/openssl/lib
 else ifeq ($(PLATFORM), linux)
