@@ -1,6 +1,6 @@
 # Conditioned Random Number Generator in C
 
-This project generates an array of cryptographically secure random integers (0–99) using OpenSSL, applies custom conditioning to ensure values aren't clustered too closely, and then sorts the result.
+OpenSSL demo which generates an array of cryptographically secure random integers (0–99), applies custom conditioning to ensure values aren't clustered too closely, and then sorts the result.
 
 ## Features
 
