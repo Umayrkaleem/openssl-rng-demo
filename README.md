@@ -28,8 +28,13 @@ OpenSSL demo which generates an array of cryptographically secure random integer
 
 ## Build Instructions
 
-### ✅ macOS (Homebrew OpenSSL)
+### 🐳 Run with Docker
+```sh
+docker build -t openssl-rng-demo .
+docker run --rm openssl-rng-demo
+```
 
+### ✅ macOS (Homebrew OpenSSL)
 ```sh
 brew install openssl
 make
